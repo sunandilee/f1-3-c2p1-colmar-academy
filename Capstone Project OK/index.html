@@ -3,35 +3,39 @@
 
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Capstone Project</title>
     <link href="style.css" rel="stylesheet" type="text/css">
   </head>
 
   <body>
     <div class="width-100">
-      <div class="bar">
-        <div class=" display-flex">
-          <p class=" center display-flex"><img src="Resources\capstone_colmar_assets\images\ic-logo.svg"><span class="font-weight-bold">COLMAR</span><span class="grey">ACADEMY</span></p>
-          <div class="width-100 flex-end display-flex">
-            <p class="align-items-center display-flex">On campus<img src="Resources\capstone_colmar_assets\images\ic-on-campus.svg"></p>
-            <p class="align-items-center display-flex">Online<img src="Resources\capstone_colmar_assets\images\ic-online.svg">or companies</p>
-            <p class="align-items-center display-flex"><img src="Resources\capstone_colmar_assets\images\ic-login.svg"></p>
+
+        <div class=" bar-items bar display-flex">
+          <div class="mobile-bar1 display-flex align-items-center">
+            <img src="Resources\capstone_colmar_assets\images\ic-logo.svg"><p><span class="font-weight-bold">COLMAR</span><span class="grey">ACADEMY</span></p>
+          </div>
+          <div class="width-100 flex-end display-flex space-around mobile-bar align-items-center">
+            <p class="align-items-center display-flex">On campus</p><img src="Resources\capstone_colmar_assets\images\ic-on-campus.svg">
+            <p class="align-items-center display-flex">Online</p>
+            <img src="Resources\capstone_colmar_assets\images\ic-online.svg"><p class="inline">or companies</p>
+            <p class="align-items-center display-flex"></p><img src="Resources\capstone_colmar_assets\images\ic-login.svg">
           </div>
         </div>
-      </div>
+
       <!-- Content-->
-      <div class=" display-flex width-100 background-color align-items-center">
+      <div class=" display-flex width-100 background-color align-items-center content1">
         <div class="width-60">
-          <div class="margin"><img class="width-100" src="Resources\capstone_colmar_assets\images\banner.jpg" ></div>
+          <div class="margin"><img class="width-100 " id="banner"  src="Resources\capstone_colmar_assets\images\banner.jpg" ></div>
         </div>
         <div class="width-40">
-          <h1 class="large-heading">Learn something new everyday</h1>
+          <h1 class="large-heading large-heading-mobile">Learn something new everyday</h1>
           <h2>Lorem ipsum dolor sit amet, consectetur adipiscong elit.</h2>
-          <p class="white center padding-8 width-80">Start here</p>
+          <div class=" center "><p class="white-mobile white center padding-8 width-80">Start here</p></div>
         </div>
       </div>
-      <div class=" width-100 display-flex">
-        <div class="width-60">
+      <div class=" width-100 display-flex content2">
+        <div class="width-60 none">
           <div class="margin"><img class="width-100" src="Resources\capstone_colmar_assets\images\information-main.jpg"></div>
           <div>
             <h1 class="margin-word heading">It doesn't hurt to keep practicing </h1>
@@ -42,7 +46,7 @@
         <div class="border-left padding-top-bottom flex-column width-40">
           <div class="display-flex align-items-center border-bottom">
             <div class="width-35 margin-16 margin-top-0 ">
-              <img class="height-auto width-100" src="Resources\capstone_colmar_assets\images\information-orientation.jpg">
+              <img class="height-auto width-100 none" src="Resources\capstone_colmar_assets\images\information-orientation.jpg"><img src="Resources\capstone_colmar_assets\images\information-orientation-mobile.jpg" id="mobile">
             </div>
             <div class="width-60 ">
               <h1>Orientation Date</h1>
@@ -51,16 +55,16 @@
           </div>
           <div class="border-top display-flex align-items-center">
             <div class="width-35 margin-16">
-              <img class="height-auto width-100 " src="Resources\capstone_colmar_assets\images\information-campus.jpg">
+              <img class="height-auto width-100 none" src="Resources\capstone_colmar_assets\images\information-campus.jpg"><img id="mobile2" src="Resources\capstone_colmar_assets\images\information-campus-mobile.jpg">
             </div>
             <div class="width-60 ">
               <h1>Our campus</h1>
               <p>Find which campus is closed by you</p>
             </div>
           </div>
-          <div class="display-flex background-color align-items-center">
+          <div class="display-flex background-color align-items-center" id="guest-lecture">
             <div class="width-35 margin-16">
-              <img class="height-auto width-100" src="Resources\capstone_colmar_assets\images\information-campus.jpg">
+              <img class="height-auto width-100 none" src="Resources\capstone_colmar_assets\images\information-guest-lecture.jpg"><img id="mobile2" src="Resources\capstone_colmar_assets\images\information-guest-lecture-mobile.jpg">
             </div>
             <div class="width-60 ">
               <h1>Our guest lecture</h1>
@@ -71,44 +75,44 @@
       </div>
       <div class="content3 width-100">
         <div>
-          <h1 class="heading center padding-top margin-0">Start learning</h1>
+          <h1 class="heading center padding-top margin-0 background-white">Start learning</h1>
         </div>
         <div class="side-margin display-flex">
           <div class="background-white course">
-            <img class="height-auto width-100" src="Resources\capstone_colmar_assets\images\course-software.jpg" >
-            <h1>Software engineering</h1>
+            <img class="height-auto width-100 none" src="Resources\capstone_colmar_assets\images\course-software.jpg" >
+            <div class="mobile-course"><h1>Software engineering</h1></div>
             <p>COURSES</p>
             <p>Web Development, Mobile Development, iOT, APIs</p>
           </div>
           <div class="background-white course flex-shrink">
-            <img class="height-auto width-100" src="Resources\capstone_colmar_assets\images\course-computer-art.jpg">
-            <h1>Comuputer art</h1>
-            <p>COURSES</p>
+            <img class="height-auto width-100 none" src="Resources\capstone_colmar_assets\images\course-computer-art.jpg">
+            <div class="mobile-course"><h1>Comuputer art</h1></div>
+            <p class="none">COURSES</p>
             <p>Imaging  &amp; Design, Web Design, Motion Graphics  &amp; Visual Effects, Computer Animation</p>
           </div>
-          <div class="background-white course">
-            <img class="height-auto width-100" src="Resources\capstone_colmar_assets\images\course-design.jpg">
-            <h1>Design</h1>
+          <div class="background-white mobile-background course">
+            <img class="height-auto width-100 none" src="Resources\capstone_colmar_assets\images\course-design.jpg">
+            <div class="mobile-course"><h1>Design</h1></div>
             <p>COURSES</p>
             <p>User Experience Design, User Research, Visual Design</p>
           </div>
         </div>
         <div class="side-margin display-flex">
           <div class="background-white course margin-top-0">
-            <img class="width-100 height-auto" src="Resources\capstone_colmar_assets\images\course-data.jpg">
-            <h1>Data</h1>
+            <img class="width-100 height-auto none " src="Resources\capstone_colmar_assets\images\course-data.jpg">
+            <div class="mobile-course"><h1>Data</h1></div>
             <p>COURSES</p>
             <p>Data Science, Big Data, SQL, Data Visualization</p>
           </div>
           <div class="course background-white margin-top-0">
-            <img class="width-100 height-auto flex-shrink" src="Resources\capstone_colmar_assets\images\course-business.jpg">
-            <h1>Business</h1>
+            <img class="width-100 height-auto none" src="Resources\capstone_colmar_assets\images\course-business.jpg">
+            <div class="mobile-course"><h1>Business</h1></div>
             <p>COURSES</p>
             <p>Product Development, Business Development, Startup</p>
           </div>
           <div class="course background-white margin-top-0">
-            <img class="width-100 height-auto" src="Resources\capstone_colmar_assets\images\course-marketing.jpg">
-            <h1>Marketing</h1>
+            <img class="width-100 height-auto none" src="Resources\capstone_colmar_assets\images\course-marketing.jpg">
+            <div class="mobile-course"><h1>Marketing</h1></div>
             <p>COURSES</p>
             <p>Analytics, Content Marketing, Mobile Marketing</p>
           </div>
@@ -123,15 +127,15 @@
               <source src="Resources\capstone_colmar_assets\videos\thesis.mp4">
               </video>
             </div>
-            <h1 class="margin-word">Reimagine urban</h1>
-            <p class="margin-word">"Curabitur vitae libero in ipsum pottitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+            <h1 class="margin-word none">Reimagine urban</h1>
+            <p class="margin-word none">"Curabitur vitae libero in ipsum pottitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
           </div>
-          <div class="flex-column width-40">
+          <div class="flex-column width-40 none content4">
             <div class="background-color display-flex align-items-center">
               <div class="margin-16 width-35 ">
                 <img class="height-auto width-100" src ="Resources\capstone_colmar_assets\images\thesis-fisma.jpg">
               </div>
-              <div class="width-60">
+              <div class="width-60 ">
                 <h1>Fisma: Design and Prototype</h1>
                 <p>Designer showcase of new prototype product</p>
               </div>
