@@ -209,3 +209,10 @@ h2 {
 .larger-p {
   font-size:1.265em;
 }
+
+@media only screen and (max-width:480px){
+  body {
+    width:100%;
+  }
+  
+}
